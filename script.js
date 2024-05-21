@@ -1,3 +1,5 @@
+
+// carousel
 document.addEventListener("DOMContentLoaded", function () {
     let carousel = document.querySelector(".carousel");
     let items = carousel.querySelectorAll(".item");
@@ -49,3 +51,24 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   });
+
+
+
+  //menu-bar
+
+  hamburguer = document.getElementById("menu");
+  menuBar = document.getElementById("menu-opcao");
+
+hamburguer.addEventListener("click" , function() {
+  if(menuBar.style.display !== "block"){
+   menuBar.style.display = "block";
+  }
+
+  else{
+    menuBar.style.display = "";
+  }
+})
+
+
+  
+
