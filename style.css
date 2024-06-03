@@ -279,7 +279,13 @@ ul{
 }
   
 
+.voltar{
+  font-size: 50px;
+}
 
+.voltar:hover{
+  color: #0B3D67;
+}
 
 
 
@@ -332,7 +338,10 @@ margin-right: 200px;
 align-items: center;
 }
 
-
+.sobre{
+ background: none;
+  background-color: black;
+}
 }
 
 
