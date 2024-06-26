@@ -58,22 +58,18 @@ ul{
 }
 
 
-
-
-
 .card{
-    margin: 50px;
-    margin-left: 100px;
-    
-}
 
-
-.card li{
+  margin: 50px;
+  margin-left: 100px;
     border: 1px solid;
     width: 460px;
     height: 580px;
     text-align: center;
     align-items: center;
+    background-image: url(img/tabua2\ 1.png);
+    color: white;
+    padding: 10px 20px;
 }
 
 .card .btn{
@@ -90,28 +86,6 @@ ul{
     font-weight: bold;
 }
 
-.card-none{
-  margin: 50px;
-  margin-left: 100px;
-}
-
-
-.card-none li{
-  border: 1px solid;
-  width: 460px;
-  height: 580px;
-  text-align: center;
-  align-items: center;
-}
-
-.card-none .btn{
-  background-color: #666666;
- padding:10px 130px;
-}
-
-.card-none .btn:hover{
-  background-color: black;
-}
 
 
 .sobre{
@@ -317,12 +291,11 @@ li{
   display: none;
 }
 
-.card-none{
-  display: none;
-}
 
 .card{
   font-size: 15px;
+ width: 60%;
+ 
 }
 
 ul{
@@ -343,6 +316,13 @@ align-items: center;
  background: none;
   background-color: black;
 }
+.two {
+  display: none;
+}
+.three{
+  display: none;
+}
+
 }
 
 
